@@ -11,15 +11,15 @@ const CONFIG = {
   // └─┘┴ ┴└─┘┴└─┘└─┘
 
   // General
-  name: 'Abhishek',
+  name: 'Shahid',
   imageBackground: false,
   openInNewTab: true,
   twelveHourFormat: false,
 
   // Greetings
-  greetingMorning: 'Good morning!',
-  greetingAfternoon: 'Good afternoon,',
-  greetingEvening: 'Good evening,',
+  greetingMorning: 'Good Morning!',
+  greetingAfternoon: 'Good Afternoon,',
+  greetingEvening: 'Good Evening,',
   greetingNight: 'Go to Sleep!',
 
   // Weather
@@ -29,8 +29,8 @@ const CONFIG = {
   language: 'en', // More languages in https://openweathermap.org/current#multi
 
   trackLocation: false, // If false or an error occurs, the app will use the lat/lon below
-  defaultLatitude: '25.473034',
-  defaultLongitude: '81.878357',
+  defaultLatitude: '22.5726',
+  defaultLongitude: '88.3639',
 
   // Autochange
   autoChangeTheme: false,
@@ -59,19 +59,19 @@ const CONFIG = {
       id: '2',
       name: 'Mail',
       icon: 'mail',
-      link: 'https://mail.zoho.in',
+      link: 'https://mail.google.com',
     },
     {
       id: '3',
-      name: 'BeatBump',
-      icon: 'music',
-      link: 'https://beatbump.ml/home',
+      name: 'Bookmarks',
+      icon: 'bookmark',
+      link: '',
     },
     {
       id: '4',
       name: 'LeetCode',
-      icon: 'type',
-      link: 'hhttps://leetcode.com/problemset/all/',
+      icon: 'award',
+      link: 'https://leetcode.com/problemset/all/',
     },
     {
       id: '5',
@@ -81,9 +81,9 @@ const CONFIG = {
     },
     {
       id: '6',
-      name: 'Gmail',
-      icon: 'at-sign',
-      link: 'https://mail.google.com/',
+      name: 'Hackathon',
+      icon: 'code',
+      link: 'https://devpost.com/',
     },
   
   ],
@@ -120,6 +120,10 @@ const CONFIG = {
       {
         name: 'Viewcord',
         link: 'https://viewcord.netlify.app/',
+      },   
+      {
+        name: 'QR Code Generator',
+        link: 'https://qrcode-generates.netlify.app/',
       },   
     ],
   },
