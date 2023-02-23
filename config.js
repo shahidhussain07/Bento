@@ -115,6 +115,10 @@ const CONFIG = {
       name: 'Twitter',
       link: 'https://twitter.com/home'
       },
+      {
+      name: 'Instagram',
+      link: 'https://instagram.com/'
+      },
     ],
     secondList: [
       {
