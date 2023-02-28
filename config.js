@@ -100,10 +100,6 @@ const CONFIG = {
   lists: {
     firstList: [
       {
-        name: 'Whatsapp Web',
-        link: 'https://web.whatsapp.com/',
-      }, 
-      {
       name: 'Discord',
       link: 'https://discord.com/channels/@me'
       },
